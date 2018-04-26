@@ -1,0 +1,17 @@
+{
+  "name": "hotelmanagement",
+  "version": "1.0.0",
+  "description": "This is a web application for hotel management system",
+  "main": "watcher.js",
+  "scripts": {
+    "start": "nodemon watcher.js"
+  },
+  "author": "Taiwo Adeshina",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
+  }
+}

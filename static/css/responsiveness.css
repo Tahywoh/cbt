@@ -1,0 +1,49 @@
+
+
+/* tablet device */
+/* @media only screen and (min-width: 480px) {
+  div.index-page div.white-text.darken-3 {
+    margin-top: -61% !important;
+  }
+} */
+
+/* mobile device */
+
+@media only screen and (max-width: 600px) {
+  div.header-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0% !important;
+  }
+  div.index-page div.white-text.darken-3 {
+    margin-top: -122% !important;
+  }
+
+}
+
+/* Tablet device */
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  div.header-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 16.5% !important;
+  }
+  div.index-page div.white-text.darken-3 {
+    margin-top: -86% !important;
+  }
+
+  /* about pmgc */
+  div.about-pmgc h4.center-align.white-text.animated.slideInLeft {
+    top: 20%;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 992px) {
+  
+  
+}
+
+/* desktop device */
